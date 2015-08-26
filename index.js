@@ -3,7 +3,7 @@
 var http = require('http');
 var constValues = require('./constValues.json');
 var Component = require('./Component');
-var ComponentResult = require('../ComponentResult.js');
+var ComponentResult = require('./ComponentResult.js');
 
 function StatusScan(controllerCallBacks) {
   Component.call(this, controllerCallBacks, [], []);
