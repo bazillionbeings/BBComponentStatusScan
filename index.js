@@ -1,9 +1,11 @@
 'use strict';
 
 var http = require('http');
-var constValues = require('./constValues.json');
-var Component = require('./Component');
-var ComponentResult = require('./ComponentResult.js');
+
+var bbComponent = require('bb-component');
+var constValues = bbComponent.constValues;
+var ComponentResult = bbComponent.ComponentResult;
+var Component = bbComponent.Component;
 
 function StatusScan(controllerCallBacks) {
   Component.call(this, controllerCallBacks, [], []);

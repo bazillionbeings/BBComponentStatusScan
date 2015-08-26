@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/bazillionbeings/BBComponentStatusScan/issues"
   },
-  "homepage": "https://github.com/bazillionbeings/BBComponentStatusScan#readme"  
+  "homepage": "https://github.com/bazillionbeings/BBComponentStatusScan#readme",
+  "dependencies": {
+    "bb-component": "git+https://github.com/bazillionbeings/BBComponent.git"
+  }
 }
