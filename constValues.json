@@ -1,0 +1,12 @@
+{
+  "providerTypes": {
+    "facebook": 0,
+    "flickr": 1,
+    "bing": 2
+  },
+  "componentOutputTypes": {
+    "facebookLatestStatus": 0,
+    "keywords": 1,
+    "imageURL": 2
+  }
+}
