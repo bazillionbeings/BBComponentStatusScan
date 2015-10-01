@@ -9,7 +9,7 @@ let Component = bbComponent.Component;
 
 class StatusScan extends Component {
     constructor(controllerCallBacks) {
-        super(this, controllerCallBacks, [], []);
+        super(controllerCallBacks, [], []);
         this._FACEBOOK_HOST = 'https://graph.facebook.com';
     }
 
